@@ -2,6 +2,7 @@
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
+**/*.pkl
 geckodriver.log
 */geckodriver.log/*
 GeckoDriver*.log
