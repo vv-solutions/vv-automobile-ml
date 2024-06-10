@@ -4,18 +4,18 @@
 
 ### Requirements:
 Make sure the requirements are installed:
-easyocr==1.7.1
-imutils==0.5.4
-langchain==0.2.3
-langchain_community==0.2.4
-langchain_weaviate==0.0.2
-numpy==1.26.4
-opencv_python==4.9.0.80
-opencv_python_headless==4.9.0.80
-pandas==1.4.4
-selenium==4.21.0
-weaviate_client==4.6.3
-webdriver_manager==4.0.1
+- easyocr==1.7.1
+- imutils==0.5.4
+- langchain==0.2.3
+- langchain_community==0.2.4
+- langchain_weaviate==0.0.2
+- numpy==1.26.4
+- opencv_python==4.9.0.80
+- opencv_python_headless==4.9.0.80
+- pandas==1.4.4
+- selenium==4.21.0
+- weaviate_client==4.6.3
+- webdriver_manager==4.0.1
 
 ### vv-price-predictor-2.0
 To run project, use: python main.py --image (takes path to an image, this works only in some cases, you can instead use --numberplate to skip the detection part.) --km km (km = km-count of car, this is optional, as the project will go to findsynsrapport.dk, and find the km-count at last inspection, this count might be outdated, depending on when the last inspection was)
